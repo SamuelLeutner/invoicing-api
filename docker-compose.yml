@@ -1,0 +1,22 @@
+services:
+  node:
+    build: .
+    working_dir: /src
+    command: sh -c "npm run dev"
+    ports:
+      - "3009:3009"
+    volumes:
+      - .:/src
+
+  mongodb:
+    image: mongo
+    volumes:
+      - ~/.invoicing-api/mongoDB/data:/data/mongo
+    ports:
+      - "27017:27017"
+      - "28017:28017"
+
+networks:
+  default:
+    external: true
+    name: invoicing-api
