@@ -8,6 +8,10 @@ The description of the project can be found [here](https://github.com/SamuelLeut
 
 The API documentation can be found [here](https://github.com/SamuelLeutner/invoicing-api/wiki/API-endpoints-documentation)
 
+### API Collection
+
+The API collection can be found [here](https://www.postman.com/winter-space-365675/workspace/invoicing-api/collection/27150340-9ae9ef12-d36a-426a-bc25-992fdf4471ac?action=share&source=copy-link&creator=27150340)
+
 ### Installing
 
 Follow these steps to get a development environment running:
